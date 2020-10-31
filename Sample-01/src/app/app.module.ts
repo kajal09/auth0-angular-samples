@@ -4,7 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import json from 'highlight.js/lib/languages/json';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { ParticlesModule } from 'ngx-particle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -38,6 +38,7 @@ import { environment as env } from '../environments/environment';
     NgbModule,
     HighlightModule,
     FontAwesomeModule,
+    ParticlesModule,
     AuthModule.forRoot({
       ...env.auth,
       httpInterceptor: {
