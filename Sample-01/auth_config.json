@@ -1,0 +1,7 @@
+{
+  "domain": "dev-kajal.us.auth0.com",
+  "clientId": "VCho8bSvy35q51dMJvfx5jz3EehdZME3",
+  "audience": "https://dev-kajal.us.auth0.com/api/v2/",
+  "apiUri": "http://localhost:3001",
+  "appUri": "http://localhost:4200"
+}
