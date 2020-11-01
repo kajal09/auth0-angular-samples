@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
     this.myParams = {
       particles: {
         number: {
-          value: 100,
+          value: 200,
           density: {
             enable: true,
             value_area: 800
@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
         line_linked: {
           enable: true,
           distance: 150,
-          color: '#5B566E',
+          color: '#00874e',
           opacity: 0.4,
           width: 1.5
         },
@@ -84,7 +84,7 @@ export class AppComponent implements OnInit {
           random: true,
           straight: false,
           out_mode: 'out',
-          bounce: false,
+          bounce: true,
           attract: {
             enable: false,
             rotateX: 600,
