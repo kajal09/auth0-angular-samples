@@ -1,3 +1,9 @@
 .hero .app-logo {
   max-width: 10.5rem;
 }
+.mb-4 {
+  color: #00874e;
+}
+.lead {
+  font-weight: bold;
+}

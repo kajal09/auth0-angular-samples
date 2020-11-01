@@ -81,7 +81,7 @@ export class AppComponent implements OnInit {
           enable: true,
           speed: 4,
           direction: 'none',
-          random: false,
+          random: true,
           straight: false,
           out_mode: 'out',
           bounce: false,
@@ -96,11 +96,11 @@ export class AppComponent implements OnInit {
         detect_on: 'canvas',
         events: {
           onhover: {
-            enable: true,
+            enable: false,
             mode: 'grab'
           },
           onclick: {
-            enable: true,
+            enable: false,
             mode: 'push'
           },
           resize: true
