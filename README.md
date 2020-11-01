@@ -1,39 +1,23 @@
-# Auth0 Angular Samples
+# Desjardin Test App
 
-[![CircleCI](https://circleci.com/gh/auth0-samples/auth0-angular-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-angular-samples)
+## Setup
 
-These samples demonstrate how to add authentication to an Angular application with Auth0, using [auth0-spa-js](https://github.com/auth0/auth0-spa-js). Each folder contains a distinct application so that various Auth0 features can be viewed in isolation. You can read about these examples in our [Angular Quickstart](https://auth0.com/docs/quickstart/spa/angular2).
+- Install Node.js (if you don't have it installed)
+- Clone the repo
+- Open terminal in the "Sample-01" directory
+- Run "npm install && npm start" (run the 2 commands separately if you're using PowerShell)
+- open "http://localhost:4200" in a browser.
 
-Read the [full tutorials on Auth0.com](https://auth0.com/docs/quickstart/spa/angular2).
 
-## Embedded Integration Samples
+## Choose a code snippet that you find interesting and describe in a few words why you chose it
 
-These samples use Auth0's [universal login page](https://auth0.com/docs/hosted-pages/login) which offers the fastest, most secure, and most feature-rich way to add authentication to your app.
+```typescript
+  loginWithRedirect() {
+    this.auth.loginWithRedirect();
+  }
+```
 
-## What is Auth0?
-
-Auth0 helps you to:
-
-- Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-- Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-- Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
-- Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
-- Analytics of how, when and where users are logging in.
-- Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
-
-## Create a free Auth0 account
-
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
-
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
-
-## Author
-
-[Auth0](https://auth0.com)
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+I found this piece of code the most interesting.
+It is a single line of code that replaces days of work.
+It would take me days to accomplish the same thing with Spring Security, BCrypt, MySQL, and implement third-party authentication services.
+I like the fact that you do not have to worry about patching security vulnerabilities and keeping the code up to date since everything is handled for you by auth0. This is my first experience working with Angular and auth0, it was a pleasure working with them.
